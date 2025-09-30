@@ -10,7 +10,7 @@ else:
 import time
 import pickle
 
-# Load pre-trained face encodings
+# Load pre-trained face encodings 
 print("[INFO] loading encodings...")
 with open("encodings.pickle", "rb") as f:
     data = pickle.loads(f.read())
