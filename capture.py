@@ -8,7 +8,7 @@ from datetime import datetime
 PERSON_NAME = "dhanush"  
 
 def create_folder(name):
-    dataset_folder = "dataset"
+    dataset_folder = "dataset" 
     if not os.path.exists(dataset_folder):
         os.makedirs(dataset_folder)
     
