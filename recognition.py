@@ -8,7 +8,7 @@ else:
     Picamera2 = None 
 
 import time
-import pickle 
+import pickle  
 
 # Load pre-trained face encodings 
 print("[INFO] loading encodings...")
