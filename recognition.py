@@ -1,6 +1,6 @@
 import face_recognition
 import cv2 
-import numpy as np
+import numpy as np 
 import sys 
 if sys.platform == "linux":
     from picamera2 import Picamera2
