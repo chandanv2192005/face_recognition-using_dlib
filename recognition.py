@@ -5,7 +5,7 @@ import sys
 if sys.platform == "linux":
     from picamera2 import Picamera2
 else:
-    Picamera2 = None 
+    Picamera2 = None  
  
 import time
 import pickle   
